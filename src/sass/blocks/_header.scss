@@ -1,0 +1,37 @@
+.header {
+	margin-top: -20px;
+	height: 880px;
+	background:
+		url(../img/bg/bg__001.png) top right no-repeat,
+		url(../img/bg/bg__001_base.svg) bottom -300px (center/cover) no-repeat;
+
+	h2 {
+		font-size: 50px;
+	}
+	h3 {
+		font-size: 21px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		font-weight: 400;
+	}
+	&__container {
+		position: relative;
+		
+	}
+	&__onion {
+		display: block;
+		position: absolute;
+		top: 430px;
+		left: 580px;
+		width: 220px;
+		height: 256px;
+		background: url(../img/bg/bg__001_1.png) center (center/contain) no-repeat;
+
+	}
+	&__text {
+		position: absolute;
+		top: 243px;
+
+		width: 465px;
+	}
+}

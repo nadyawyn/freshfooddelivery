@@ -1,0 +1,18 @@
+.signup {
+	position: absolute;
+	top: 47px;
+	right: 0;
+
+	&__form {
+
+		input {
+			display: inline-block;
+			height: 45px;
+			border: none;
+			width: 300px;
+			padding-left: 30px;
+
+			border-radius: 4px;
+		}
+	}
+}

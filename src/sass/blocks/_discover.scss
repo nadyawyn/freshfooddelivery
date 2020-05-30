@@ -1,0 +1,37 @@
+.discover {
+	background-color: #fff;
+	height: 755px;
+	&__container {
+		position: relative;
+		height: 100%;
+		background:
+		url(../img/bg/bg__002.png) top left no-repeat/* ,
+		url(../img/bg/bg__001_base.svg) bottom -300px (center/cover) no-repeat */;
+	}
+	&__leaf {
+		display: block;
+		width: 132px;
+		height: 153px;
+
+		position: absolute;
+		right: 300px;
+		top: -100px;
+
+		background: url(../img/bg/bg__002_1.png) center (center/contain) no-repeat;
+	}
+
+	&__text {
+		display: block;
+		position: absolute;
+		right: 185px;
+		top: 100px;
+		width: 700px;
+
+		outline: 1px solid red;
+
+		h2 {
+			font-size: 40px;
+			font-weight: 300;
+		}
+	}
+}

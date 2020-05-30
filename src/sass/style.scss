@@ -7,6 +7,33 @@
 * {
 	box-sizing: border-box;
 }
+.visually-hidden:not(:focus):not(:active) {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px; 
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap; 
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+body {
+	background-color: $color_gray;;
+}
+.container {
+	//width: 1566px;
+	width: 80%;
+	margin: 0 auto;
+}
+
 
 @import "base/buttons";
 @import "blocks/header";
+@import "blocks/signup";
+@import "blocks/discover";
