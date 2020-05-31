@@ -1,0 +1,38 @@
+.delivery {
+	height: 515px;
+	position: relative;
+	&__container {
+		width: 1042px;
+		margin: 0 auto;
+	}
+	&__text {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+
+		font-size: 20px;
+		line-height: 35px;
+
+		p {
+			margin-bottom: 40px;
+		}
+
+		&-item {
+			width: 520px;
+
+			&:first-child {
+				border-right: 1px solid #bbbbbb;
+				padding-right: 90px;
+			}
+			&:last-child {
+				padding-left: 90px;
+			}
+		}
+	}
+	&__subtitle {
+		color: $color_green;
+		font-size: 35px;
+		font-weight: 400;
+		margin-top: 10px;
+	}
+}

@@ -1,0 +1,56 @@
+.footer {
+	height: 490px;
+	position: relative;
+
+	color: #ffffff;
+
+	a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	background-color: #262626;
+
+	&__bgcontainer {
+		margin-top: 135px;
+		height: 100px;
+
+		border-top: 1px solid #3d3d3d;
+
+	}
+	&__container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+
+		padding-top: 45px;
+	}
+
+	&__social {
+		width: 202px;
+	}
+
+	&__download {
+		width: 265px;
+	}
+
+	&__nav {
+		width: 700px;
+		ul {
+			@include reset-list;
+
+			li {
+				margin-top: 20px;
+			}
+		}
+
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	&__copy {
+		flex-basis: 100%;
+		color: rgba($color: #ffffff, $alpha: .6);
+	}
+}

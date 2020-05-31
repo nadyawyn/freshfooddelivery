@@ -4,7 +4,8 @@
 	position: relative;
 
 	&__bgcontainer {
-		background: url(../img/bg/bg__006.png) left 100px top 0 no-repeat;
+		background: url(../img/bg/bg__006.png) left 100px top 0 no-repeat,
+		url(../../img/bg/bg__002_base.svg) bottom no-repeat;
 	}
 	&__container {
 		position: relative;
