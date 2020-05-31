@@ -1,0 +1,40 @@
+.track {
+	position: relative;
+	height: 1000px;
+
+	background: url(../img/bg/bg__005.png) center (center/contain) no-repeat;
+	&__container {
+		position: relative;
+		height: 100%;
+	}
+	&__bgcontainer {
+		background: url(../img/bg/bg__005_1.png) right 300px top no-repeat,
+		url(../../img/bg/bg__003_base.svg) left bottom no-repeat;
+	}
+
+	&__coffee {
+		display: block;
+		position: absolute;
+		left: 500px;
+		top: -80px;
+		width: 305px;
+		height: 269px;
+		background: url(../img/bg/bg__005_2.png) center (center/contain) no-repeat;
+	}
+	&__foods {
+		display: block;
+		position: absolute;
+		left: 45px;
+		bottom:30px;
+		width: 515px;
+		height: 312px;
+		background: url(../img/bg/bg__005_3.png) center (center/contain) no-repeat;
+	}
+
+	&__text {
+		position: absolute;
+		left: 0;
+		top: 300px;
+		width: 640px;
+	}
+}

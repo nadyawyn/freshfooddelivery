@@ -1,4 +1,5 @@
 .tap {
+	margin-top: -100px;
 	position: relative;
 	height: 845px;
 	background-color:#fff;
@@ -9,7 +10,7 @@
 	&__bgcontainer {
 		background: url(../img/bg/bg__004.png) left no-repeat,
 		url(../img/bg/bg__004_2.png) right no-repeat,
-		url(../../img/bg/bg__002_base.svg) bottom -290px (center/cover) no-repeat;
+		url(../img/bg/bg__002_base.svg) bottom -290px (center/cover) no-repeat;
 	}
 
 	&__text {
