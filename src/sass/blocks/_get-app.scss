@@ -6,7 +6,64 @@
 	&__bgcontainer {
 		background: url(../img/bg/bg__006.png) left 100px top 0 no-repeat;
 	}
+	&__container {
+		position: relative;
+		height: 100%;
+	}
+	&__text {
+		position: absolute;
+		right: 300px;
+		top: 215px;
 
+		width: 620px;
+		
+		display: flex;
+		flex-flow: row wrap;
+
+		&::before {
+			content: "";
+			display: block;
+			width: 117px;
+			height: 31px;
+
+			position: absolute;
+			top: -80px;
+			left: -100px;
+			background: url(../icons/waves.png) center (center/contain) no-repeat;
+		}
+	}
+	&__title {
+		font-size: 30px;
+		line-height: 35px;
+		margin-left: 20px;
+	}
+
+	&__icons {
+		flex-basis: 100%;
+		margin-top: 80px;
+
+		a {
+			margin-right: 15px;
+		}
+	}
+	&__leaves {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 269px;
+		width: 261px;
+		background: url(../img/bg/bg__006_1.png) center (center/contain) no-repeat;
+	}
+	&__foods {
+		display: block;
+		position: absolute;
+		bottom: 250px;
+		right: 30%;
+		width: 168px;
+		height: 164px;
+		background: url(../img/bg/bg__006_3.png) center (center/contain) no-repeat;
+	}
 	&__herb {
 		display: block;
 		width: 84px;
