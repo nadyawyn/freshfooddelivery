@@ -1,12 +1,15 @@
 .discover {
+	position: relative;
 	background-color: #fff;
 	height: 755px;
+	&__bgcontainer {
+		background: url(../img/bg/bg__002_base.svg) bottom -240px (center/cover) no-repeat;
+		z-index: 0;
+	}
 	&__container {
 		position: relative;
 		height: 100%;
-		background:
-		url(../img/bg/bg__002.png) top left no-repeat/* ,
-		url(../img/bg/bg__001_base.svg) bottom -300px (center/cover) no-repeat */;
+		background: url(../img/bg/bg__002.png) top left no-repeat
 	}
 	&__leaf {
 		display: block;
@@ -31,7 +34,7 @@
 
 		h2 {
 			font-size: 40px;
-			font-weight: 300;
+			font-weight: 400;
 		}
 	}
 }
