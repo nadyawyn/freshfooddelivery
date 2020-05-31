@@ -6,6 +6,7 @@
 	&__container {
 		position: relative;
 		height: 100%;
+		
 	}
 	&__bgcontainer {
 		background: url(../img/bg/bg__005_1.png) right 300px top no-repeat,
@@ -15,10 +16,11 @@
 	&__coffee {
 		display: block;
 		position: absolute;
-		left: 500px;
+		left: 430px;
 		top: -80px;
 		width: 305px;
 		height: 269px;
+		z-index: 0;
 		background: url(../img/bg/bg__005_2.png) center (center/contain) no-repeat;
 	}
 	&__foods {

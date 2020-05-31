@@ -1,3 +1,4 @@
+
 .get-app {
 	height: 1000px;
 	background-color: $color_lgray;
@@ -13,10 +14,10 @@
 	}
 	&__text {
 		position: absolute;
-		right: 300px;
-		top: 215px;
+		right: 0;
+		top: 255px;
 
-		width: 620px;
+		width: 600px;
 		
 		display: flex;
 		flex-flow: row wrap;
