@@ -1,0 +1,19 @@
+.get-app {
+	height: 1000px;
+	background-color: $color_lgray;
+	position: relative;
+
+	&__bgcontainer {
+		background: url(../img/bg/bg__006.png) left 100px top 0 no-repeat;
+	}
+
+	&__herb {
+		display: block;
+		width: 84px;
+		height: 147px;
+		position: absolute;
+		right: 0;
+		bottom: 50px;
+		background: url(../img/bg/bg__006_2.png) center (center/contain) no-repeat;
+	}
+}
