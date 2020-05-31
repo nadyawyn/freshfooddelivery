@@ -44,8 +44,17 @@ body {
 .green {
 	color: $color_green;
 }
+h2 {
+	font-size: 40px;
+	font-weight: 400;
+
+	line-height: 60px;
+			
+}
 
 @import "base/buttons";
 @import "blocks/header";
 @import "blocks/forms";
 @import "blocks/discover";
+@import "blocks/find-food";
+@import "blocks/tap";

@@ -2,6 +2,7 @@
 	position: relative;
 	background-color: #fff;
 	height: 755px;
+
 	&__bgcontainer {
 		background: url(../img/bg/bg__002_base.svg) bottom -240px (center/cover) no-repeat;
 		z-index: 0;
@@ -9,7 +10,7 @@
 	&__container {
 		position: relative;
 		height: 100%;
-		background: url(../img/bg/bg__002.png) top left no-repeat
+		background: url(../img/bg/bg__002.png) top 50px left no-repeat
 	}
 	&__leaf {
 		display: block;
@@ -32,9 +33,5 @@
 
 		outline: 1px solid red;
 
-		h2 {
-			font-size: 40px;
-			font-weight: 400;
-		}
 	}
 }
