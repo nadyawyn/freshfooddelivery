@@ -164,3 +164,41 @@
 		}
 	}
 }
+
+@media (max-width: $width_4) {
+	.find-food {
+		height: 780px;
+		background-size: 50%;
+		&__bgcontainer {
+			background: url(../img/bg/bg__003_base.svg) bottom -200px center/cover no-repeat;
+		}
+
+		&__text {
+			top: 127px;
+		}
+	}
+	.tap {
+		&__mushroom {
+			right: 115px;
+			top: -130px;
+		}
+		&__text {
+			top: 110px;
+			width: 397px;
+		}
+	}
+	.track {
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1s.png) right 34px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+	}
+	.get-app {
+		&__bgcontainer {
+			background: url(../img/bg/bg__006.png) left -61px top -70px no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
+		}
+		&__leaves {
+			top: -68px;
+			right: 94px;
+		}
+	}
+}
