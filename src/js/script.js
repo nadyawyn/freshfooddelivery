@@ -41,7 +41,7 @@ $(window).scroll(function () {
 	$('.get-app__leaves').each(function () {
 		const imagePos = $(this).offset().top;
 		const topOfWindow = $(window).scrollTop();
-		if (imagePos < topOfWindow + 200) {
+		if (imagePos < topOfWindow + 500) {
 			$(this).addClass('animated_def');
 		}
 	});
@@ -49,7 +49,7 @@ $(window).scroll(function () {
 	$('.get-app__foods').each(function () {
 		const imagePos = $(this).offset().top;
 		const topOfWindow = $(window).scrollTop();
-		if (imagePos < topOfWindow + 200) {
+		if (imagePos < topOfWindow + 400) {
 			$(this).addClass('animated_b');
 		}
 	});
