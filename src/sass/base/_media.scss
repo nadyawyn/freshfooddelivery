@@ -1,0 +1,36 @@
+@media (max-width: $width_1) {
+	.find-food {
+		&__text {
+			width: 550px;
+			h2 {
+				font-size: 36px;
+			}
+		}
+	}
+	.tap {
+		&__text {
+			right: 280px;
+			h2 {
+				font-size: 36px;
+			}
+		}
+	}
+	.track {
+		&__coffee {
+			left: 268px;
+			width: 280px;
+		}
+		&__text {
+			width: 600px;
+			h2 {
+				font-size: 36px;
+			}
+		}
+	}
+	.get-app {
+		&__foods {
+			right: 20%;
+			bottom: 200px;
+		}
+	}
+}
