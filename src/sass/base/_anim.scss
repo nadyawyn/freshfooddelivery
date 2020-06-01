@@ -78,15 +78,29 @@
 }
 
 
+.animated_def {
+	animation: elRotate 3s ease-in-out 1;
+}
 .animated_h {
 	&:hover {
 		animation: elRotate 3s ease-in-out 1;
 	}
 }
+.animated_l {
+	
+		animation: elRotateL 3s ease-in-out 1;
+
+}
 .animated_hl {
 	&:hover {
 		animation: elRotateL 3s ease-in-out 1;
 	}
+
+}
+
+.animated_b {
+
+		animation: elRotateB 3s ease-in-out 1;
 
 }
 
