@@ -34,3 +34,133 @@
 		}
 	}
 }
+
+@media (max-width: $width_2) {
+	.header {
+		background-size: 90%;
+
+		&__text {
+			top: 138px;
+		}
+
+		&__onion {
+			top: 558px;
+		}
+	}
+	.discover {
+		height: 670px;
+
+		&__container {
+			background: url(../img/bg/bg__002.png) top 17px left no-repeat;
+		}
+	}
+	.find-food {
+		background-size: 55%;
+		height: 1000px;
+
+		&__bgcontainer {
+			background: url(../img/bg/bg__003_base.svg) bottom -300px center/cover no-repeat;
+		}
+		&__text {
+			top: 176px;
+
+			&::before {
+				top: -115px;
+			}
+		}
+	}
+	.tap {
+		&__text {
+			right: 90px;
+			top: 175px;
+			h2 {
+				font-size: 32px;
+			}
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__004.png) left bottom 20px no-repeat,
+			url(../img/bg/bg__004_2.png) right no-repeat,
+			url(../img/bg/bg__002_base.svg) bottom -290px center/cover no-repeat;
+		}
+	}
+
+	.track {
+		height: 900px;
+		margin-top: -80px;
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1.png) right 200px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+		&__coffee {
+			top: -15px;
+			left: 240px;
+		}
+	}
+	.get-app {
+		&__bgcontainer {
+			background: url(../img/bg/bg__006.png) left 25px top 0 no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
+		}
+
+		&__icons {
+			margin-top: 44px;
+		}
+		&__foods {
+			right: 90px;
+		}
+	}
+} 
+
+@media (max-width: $width_3) {
+	.container {
+		width: 100%;
+		padding: 0 30px;
+	}
+	.signup {
+		right: 55px;
+	}
+	.discover {
+		&__container {
+			background: url(../img/bg/bg__002.png) top 17px left 45px no-repeat;
+		}
+		&__text {
+			right: 30px;
+		}
+	}
+	.find-food {
+		&__text {
+			left: 40px;
+		}
+	}
+	.tap {
+		height: 760px;
+		&__bgcontainer {
+			background: url(../img/bg/bg__004s.png) left bottom 100px no-repeat,url(../img/bg/bg__004_2.png) right no-repeat,url(../img/bg/bg__002_base.svg) bottom -290px center/cover no-repeat;
+		}
+		&__mushroom {
+			right: 384px;
+			top: -115px;
+		}
+		&__text {
+			right: 43px;
+			top: 149px;
+		}
+	}
+	.track {
+		height: 870px;
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1s.png) right 200px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+		&__coffee {
+			top: 20px;
+		}
+		&__text {
+			left: 30px;
+			top: 250px;
+		}
+	}
+	.get-app {
+		height: 937px;
+		&__bgcontainer {
+			background: url(../img/bg/bg__006.png) left -25px top 0 no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
+		}
+	}
+}
