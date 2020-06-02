@@ -32,6 +32,9 @@
 			right: 20%;
 			bottom: 200px;
 		}
+		&__herb {
+			bottom:420px;
+		}
 	}
 }
 
@@ -106,6 +109,9 @@
 		&__foods {
 			right: 90px;
 		}
+		&__herb {
+			bottom:420px;
+		}
 	}
 } 
 
@@ -167,6 +173,9 @@
 		&__bgcontainer {
 			background: url(../img/bg/bg__006.png) left -25px top 0 no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
 		}
+		&__herb {
+			bottom:420px;
+		}
 	}
 }
 
@@ -204,6 +213,9 @@
 		&__leaves {
 			top: -68px;
 			right: 94px;
+		}
+		&__herb {
+			bottom:420px;
 		}
 	}
 }
@@ -307,6 +319,10 @@
 				top: -67px;
 			}
 		}
+
+		&__foods {
+			display: none;
+		}
 	
 	}
 	.delivery {
@@ -326,4 +342,63 @@
 			}
 		}
 	}
+}
+
+@media (max-width: $width_6) {
+	.header {
+		&__text {
+			width: 400px;
+			top: 175px;
+		}
+		&__title {
+			margin-bottom: 10px;
+		}
+		&__subtitle {
+			margin-top: 20px;
+		}
+	}
+	.discover {
+		&__text {
+			h2 {
+				font-size: 28px;
+				line-height: 42px;
+			}
+			width: 387px;
+		}
+	}
+	.find-food {
+		background-size: 60%;
+		&__text {
+			left: 0;
+			background-color: rgba($color: #ffffff, $alpha: .8);
+			width: 100%;
+			padding: 20px 40px;
+			h2 {
+				font-size: 28px;
+				line-height: 40px;
+			}
+		}
+	}
+	.track {
+		&__text {
+			left: 0;
+			background-color: rgba($color: #ffffff, $alpha: .8);
+			width: 100%;
+			padding: 20px 40px;
+			h2 {
+				font-size: 28px;
+				line-height: 40px;
+			}
+		}
+		&__coffee {
+			left: 50px;
+		}
+		&__foods {
+			bottom: -1px;
+		}
+	}
+}
+
+@media (max-width: $width_7) {
+	
 }
