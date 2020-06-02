@@ -117,6 +117,9 @@
 	.signup {
 		right: 55px;
 	}
+	.button_small {
+		font-size: 16px;
+	}
 	.discover {
 		&__container {
 			background: url(../img/bg/bg__002.png) top 17px left 45px no-repeat;
@@ -142,6 +145,7 @@
 		&__text {
 			right: 43px;
 			top: 149px;
+			width: 482px;
 		}
 	}
 	.track {
@@ -155,6 +159,7 @@
 		&__text {
 			left: 30px;
 			top: 250px;
+			width: 492px;
 		}
 	}
 	.get-app {
@@ -199,6 +204,126 @@
 		&__leaves {
 			top: -68px;
 			right: 94px;
+		}
+	}
+}
+
+@media (max-width: $width_5) {
+	.header {
+		height: 700px;
+		h2 {
+			font-size: 36px;
+		}
+		h3 {
+			margin: 34px 0 30px 0;
+		}
+		&__onion {
+			top: 446px;
+			left: 265px;
+		}
+	}
+	.discover {
+		height: 600px;
+		&__leaf {
+			top: -51px;
+			right: 145px;
+		}
+		&__container {
+			background: url(../img/bg/bg__002.png) top 53px left 45px no-repeat;
+			background-size: 50%;
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__002_base.svg) bottom -220px center/cover no-repeat;
+		}
+		&__text {
+			width: 435px;
+
+			.button_small {
+				margin-top: 25px;
+			}
+		}
+	}
+	.find-food {
+		&__text {
+			width: 430px;
+
+			h2 {
+				font-size: 32px;
+			}
+		}
+	}
+	.tap {
+		&__text {
+			background-color: rgba($color: #ffffff, $alpha: .8);
+
+			top: 130px;
+			left: 0;
+			right: auto;
+			width: 100%;
+			padding: 10px 30px;
+			text-align: center;
+
+			&::after {
+				left: 130px;
+				bottom: 40px;
+			}
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__004s.png) left bottom 100px no-repeat,url(../img/bg/bg__004_2.png) right no-repeat,url(../img/bg/bg__002_base.svg) bottom -248px center/cover no-repeat;
+		}
+	}
+	.track {
+		&__coffee {
+			left: 115px;
+		}
+		&__text {
+			width: 420px;
+			h2 {
+				font-size: 28px;
+			}
+		}
+		&__foods {
+			left: 2px;
+			bottom: 43px;
+		}
+	}
+	.get-app {
+		&__herb {
+			bottom: 415px;
+		}
+
+		&__text {
+			top: 260px;
+			left: 0;
+			right: auto;
+			background-color: rgba($color: #ffffff, $alpha: .8);
+			width: 100%;
+
+			padding: 20px 40px;
+
+			&::before {
+				left: auto;
+				right: 80px;
+				top: -67px;
+			}
+		}
+	
+	}
+	.delivery {
+		height: 450px;
+		&__subtitle {
+			font-size: 22px;
+		}
+		&__text {
+			font-size: 16px;
+			&-item {
+				&:first-child {
+					padding-right: 50px;
+				}
+				&:last-child {
+					padding-left: 50px;
+				}
+			}
 		}
 	}
 }
