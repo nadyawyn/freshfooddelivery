@@ -400,5 +400,165 @@
 }
 
 @media (max-width: $width_7) {
-	
+	.header {
+		&__onion {
+			top: 409px;
+		}
+	}
+	.discover {
+		&__leaf {
+			top: -32px;
+			right: 52px;
+		}
+		&__text {
+			top: 298px;
+		}
+	}
+	.find-food {
+		&__text {
+			top: 183px;
+		}
+	}
+	.tap {
+		&__bgcontainer {
+			background: url(../img/bg/bg__004s.png) left bottom 100px no-repeat,url(../img/bg/bg__002_base.svg) bottom -248px center/cover no-repeat;
+		}
+		&__mushroom {
+			right: 6px;
+			top: -193px;
+		}
+		&__text {
+			&::after {
+				bottom: -15px;
+			}
+		}
+	}
+	.track {
+		&__coffee {
+			display: none;
+		}
+		&__foods {
+			width: 400px;
+			height: 240px;
+			bottom: 43px;
+		}
+	}
+	.get-app {
+		&__leaves {
+			width: 205px;
+			height: 205px;
+			right: 5px;
+			top: -15px;
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__006.png) left -229px top -40px no-repeat,url(../img/bg/bg__002_base.svg) bottom no-repeat;
+		}
+		&__herb {
+			bottom: 330px;
+		}
+	}
+	.delivery {
+		margin-top: -65px;
+		height: auto;
+		margin-bottom: 50px;
+
+		&__text {
+			flex-flow: column nowrap;
+
+			&-item {
+				width: 100%;
+				text-align: center;
+				&:first-child {
+					border: none;
+					padding-right: 0;
+				}
+				&:last-child {
+					padding-left: 0;
+					margin-top: 50px;
+				}
+			}
+		}
+	}
 }
+
+@media (max-width: $width_8) {
+	.signup {
+		position: relative;
+		right: auto;
+		top: 30px;
+	}
+	.header {
+		background-size: 144%;
+		&__text {
+			top: 265px;
+		}
+		&__onion {
+			top: 390px;
+			left: 234px;
+		}
+	}
+	.find-food {
+		height: 660px;
+		&__text {
+			top: 83px;
+		}
+	}
+	.tap {
+		&__mushroom {
+			display: none;
+		}
+	}
+	.track {
+		height: 900px;
+		&__foods {
+			bottom: 40px;
+			left: 32px;
+		}
+	}
+	.get-app {
+		&__leaves {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: $width_9) {
+	.signup {
+		text-align: center;
+		&__form {
+			input {
+				width: 230px;
+			}
+		}
+	}
+	.header {
+		&__onion {
+			display: none;
+		}
+	}
+	.discover {
+		&__leaf {
+			top: -125px;
+			right: 35px;
+		}
+	}
+	.find-food {
+		&__text {
+			h2 {
+				font-size: 24px;
+			}
+		}
+	}
+	.tap {
+		&__text {
+			h2 {
+				font-size: 26px;
+			}
+		}
+	}
+	.get-app {
+		&__title {
+			margin-left: 0;
+		}
+	}
+} 
