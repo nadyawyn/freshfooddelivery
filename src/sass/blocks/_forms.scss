@@ -27,3 +27,23 @@ input {
 		}
 	}
 }
+
+.lang-choice {
+	&__form {
+		select {
+			width: 203px;
+			height: 44px;
+
+			padding-left: 40px;
+
+			background-color: none;
+
+			border: none;
+			border-bottom: 1px solid #3d3d3d;
+
+			color: #fff;
+
+			background: url(../icons/globe.png) left 5px top 10px no-repeat;
+		}
+	}
+}

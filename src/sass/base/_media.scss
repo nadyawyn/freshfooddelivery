@@ -342,6 +342,11 @@
 			}
 		}
 	}
+	.footer {
+		&__nav {
+			width: 490px;
+		}
+	}
 }
 
 @media (max-width: $width_6) {
@@ -601,6 +606,17 @@
 			&-item {
 				padding: 0 20px 0 20px;
 			}
+		}
+	}
+	.footer {
+		padding-top: 30px;
+		padding-left: 20px;
+		&__bgcontainer {
+			display: none;
+		}
+		&__nav {
+			flex-flow: column nowrap;
+			margin-left: 50px;
 		}
 	}
 } 
