@@ -470,18 +470,23 @@
 				text-align: center;
 				&:first-child {
 					border: none;
-					padding-right: 0;
+					padding-right: 20px;
 				}
 				&:last-child {
 					padding-left: 0;
 					margin-top: 50px;
+					padding-left: 20px;
 				}
+
+				padding: 0 20px 0 20px;
 			}
 		}
 	}
+	
 }
 
 @media (max-width: $width_8) {
+	
 	.signup {
 		position: relative;
 		right: auto;
@@ -523,6 +528,7 @@
 }
 
 @media (max-width: $width_9) {
+	
 	.signup {
 		text-align: center;
 		&__form {
@@ -535,11 +541,35 @@
 		&__onion {
 			display: none;
 		}
+		&__text {
+			padding-left: 30px;
+			width: 100%;
+		}
+	}
+	.container {
+		padding: 0;
+	}
+	.address__form {
+		input {
+			width: 295px;
+		}
 	}
 	.discover {
 		&__leaf {
-			top: -125px;
+			top: -23px;
 			right: 35px;
+		}
+		&__text {
+			right: auto;
+			width: 100%;
+			padding-left: 30px;
+			h2 {
+				font-size: 26px;
+			}
+		}
+		&__container {
+			background: url(../img/bg/bg__002.png) top 90px left 45px no-repeat;
+			background-size: 50%;
 		}
 	}
 	.find-food {
@@ -547,6 +577,11 @@
 			h2 {
 				font-size: 24px;
 			}
+		}
+	}
+	.track {
+		&__foods {
+			width: 340px;
 		}
 	}
 	.tap {
@@ -561,4 +596,55 @@
 			margin-left: 0;
 		}
 	}
+	.delivery {
+		&__text {
+			&-item {
+				padding: 0 20px 0 20px;
+			}
+		}
+	}
 } 
+@media (max-width: $width_10) {
+	
+	.header {
+		h2 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+	.track {
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1s.png) right -25px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+	}
+}
+@media (max-width: $width_11) {
+	
+	.signup {
+		.button {
+			margin-top: 20px;
+		}
+	}
+	.track {
+		&__foods {
+			width: 313px;
+			left: -7px;
+		}
+		&__bgcontainer {
+			background: url(../img/bg/bg__005_1s.png) right -43px top 2px no-repeat,url(../img/bg/bg__005_base.svg) left bottom no-repeat;
+		}
+	}
+	.tap {
+		&__text {
+			&::after {
+				bottom: -178px;
+			
+			}
+		}
+	}
+	.address__form {
+		input {
+			width: 253px;
+		}
+	}
+}
